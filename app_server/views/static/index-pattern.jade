@@ -1,0 +1,128 @@
+
+doctype html
+html(lang='ru')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet' href='/pages/index.css')
+    title ТГУ - дополнительное образование
+    header.header
+      .header__name
+        img.header__logo(src= '/images/logo.png')
+        h1.header__title дополнительное образование
+      .header__menus
+        p.header__menu(href='#') О ТГУ
+        a.header__menu(href='#') Сведения
+        a.header__menu(href='#') Курсы
+        a.header__menu(href='#') Войти
+    main.content
+      section.description__columns
+        .description__column
+          h2.description__title
+            | Учим 
+            span.description__title.description__span профессиям
+            |  и навыкам
+          p.description__subtitle Выберите курс со скидкой до 50% и получите второй — в подарок!
+          a.description__link(href='#') Условия акции
+        img.people(src='/images/people.png')
+      section.direction
+        h2.direction__title Направления обучения
+        .direction__help
+          a.direction__link Помогите с выбором
+        .direction__search
+          input.direction__input(type='text' value='Поиск курса')
+      section.table
+        h2.table__title Популярные курсы
+        .table__grid
+          .table__cell
+            h2.table__cell_title Маркетинг
+            ul.table__cell_list
+              li Интернет-маркетолог
+              li SMM-менеджер
+              li Копирайтер
+              li SEO-специалист
+              li Таргетолог
+          .table__cell
+            h2.table__cell_title Программи-рование
+            ul.table__cell_list
+              li Инженер по тестированию
+              li Frontend-разработчик
+              li Java-разработчик
+          .table__cell
+            h2.table__cell_title Аналитика
+            ul.table__cell_list
+              li Data Scientist
+              li Аналитик данных
+              li Аналитик BI
+              li Power BI & Excel
+              li DataOps-инженер
+          .table__cell
+            h2.table__cell_title Аналитика
+            ul.table__cell_list
+              li Data Scientist
+              li Аналитик данных
+              li Аналитик BI
+              li Power BI & Excel
+              li DataOps-инженер
+          .table__cell
+            h2.table__cell_title Дизайн
+            ul.table__cell_list
+              li Дизайн
+              li UX/UI-дизайнер
+              li Графический дизайнер
+              li Моушн-дизайнер
+              li Дизайнер интерьера
+          .table__cell
+            h2.table__cell_title Высшее образование
+            ul.table__cell_list
+              li Высшее образование
+              li Управление цифровым продуктом
+          .table__cell
+            h2.table__cell_title Финансы и инвестиции
+            ul.table__cell_list
+              li Финансовый менеджер
+              li Криптовалюты
+              li Бухгалтер
+          .table__cell
+            h2.table__cell_title Компьютерные игры
+            ul.table__cell_list
+              li Компьютерные игры
+              li Геймдизайнер
+              li Игоровой аналитик
+        a.table__button-more(href='#')
+          h2.table__button-more_text Показать больше...
+      section.contact
+        .contact__two-columns
+          .contact__description
+            h2.contact__title Поможем выбрать курс!
+            p.contact__subtitle
+              | Если у вас есть вопросы о формате или вы не знаете, что выбрать, оставьте свой номер — мы позвоним, чтобы ответить на все ваши вопросы.
+          .contact__form
+            input.contact__input-big(type='text' value='Имя')
+            .contact__input-down
+              input.contact__input-small(type='email' value='E-mail')
+              input.contact__input-small(type='text' value='Телефон')
+            p.contact__agreement
+              | Нажимая на кнопку, я соглашаюсь на обработку персональных данных и с правилами пользования Платформой
+    footer.footer
+      .footer__columns
+        .footer__courses
+          h3.footer__title Курсы
+          img(src='/images/Line.png')
+          ul.footer__list
+            li.footer__cell Маркетинг
+            li.footer__cell Программирование
+            li.footer__cell Аналитика
+            li.footer__cell Дизайн
+            li.footer__cell Высшее образование
+            li.footer__cell Финансы и инвестиции
+        .footer__courses
+          h3.footer__title О ТГУ
+          img(src='/images/Line.png')
+          ul.footer__list
+            li.footer__cell Маркетинг
+            li.footer__cell Программирование
+            li.footer__cell Аналитика
+            li.footer__cell Дизайн
+            li.footer__cell Высшее образование
+            li.footer__cell Финансы и инвестиции
