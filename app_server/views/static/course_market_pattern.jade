@@ -1,0 +1,204 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no')
+    title страница_курсов
+    link(rel='stylesheet' href='/assets/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet' href='/assets/css/styles.min.css')
+  body
+    nav.navbar.navbar-light.navbar-expand-md.py-3
+      .container
+        img(src='assets/img/logo.png')
+        a.navbar-brand.d-flex.align-items-center(href='#')
+          span Курсы
+        button.navbar-toggler(data-bs-toggle='collapse' data-bs-target='#navcol-2')
+          span.visually-hidden Toggle navigation
+          span.navbar-toggler-icon
+        #navcol-2.collapse.navbar-collapse
+          ul.navbar-nav.ms-auto
+            li.nav-item
+            li.nav-item
+            li.nav-item
+          a.btn.btn-primary.ms-md-2(role='button' href='#') Войти
+    .container.py-4.py-xl-5
+      .row.mb-5
+        .col-md-8.col-xl-6.text-center.mx-auto
+          h2 Выберите интересующий курс
+          p.w-lg-50 Курсы составлены специалистами университета по актуальным направлениям
+      div
+        ul.nav.nav-pills.d-flex.justify-content-center(role='tablist')
+          li.nav-item(role='presentation')
+            a.nav-link.active(role='tab' data-bs-toggle='pill' href='#tab-1') Рассрочка
+          li.nav-item(role='presentation')
+            a.nav-link(role='tab' data-bs-toggle='pill' href='#tab-2') Разовый платёж
+        .tab-content.pt-5
+          #tab-1.tab-pane.active(role='tabpanel')
+            .row.gy-4.row-cols-1.row-cols-md-2.row-cols-xl-3
+              .col
+                .card.h-100
+                  .card-body.flex-grow-0.p-4
+                    span.badge.bg-primary.text-uppercase.mb-2 Standard
+                    h4.display-4.fw-bold.card-title
+                      | 1500 руб
+                      span.fs-3.fw-normal.text-muted /мес
+                    h1 Маркетинг
+                  .card-footer.d-flex.flex-column.flex-grow-1.justify-content-between
+                    div
+                      ul.list-unstyled
+                        li.d-flex.mb-2
+                          span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                            svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                              path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                          span Записи лекций
+                        li.d-flex.mb-2
+                          span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                            svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                              path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                          span Практические задания
+                        li.d-flex.mb-2
+                          span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                            svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                              path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                          span Поддержка наставника
+                    a.btn.btn-primary.d-block.w-100(role='button' href='#') Подробнее
+              .col
+                .card.h-100
+                  .card-body.flex-grow-0.p-4
+                    span.badge.bg-primary.text-uppercase.mb-2 Pro
+                    h4.display-4.fw-bold.card-title
+                      | 3699 руб
+                      span.fs-3.fw-normal.text-muted /мес
+                    h1 Java разработка
+                  .card-footer.d-flex.flex-column.flex-grow-1.justify-content-between
+                    div
+                      ul.list-unstyled
+                        li.d-flex.mb-2
+                          span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                            svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                              path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                          span Записи лекций
+                        li.d-flex.mb-2
+                          span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                            svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                              path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                          span Практические задания
+                        li.d-flex.mb-2
+                          span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                            svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                              path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                          span Поддержка наставника
+                    a.btn.btn-primary.d-block.w-100(role='button' href='/java-dev/') Подробнее
+              .col
+                .card.h-100
+                  .card-body.flex-grow-0.p-4
+                    span.badge.bg-primary.text-uppercase.mb-2 Standard +
+                    h4.display-4.fw-bold.card-title
+                      | 2500 руб
+                      span.fs-3.fw-normal.text-muted /мес
+                    h1 Аналитика
+                  .card-footer.d-flex.flex-column.flex-grow-1.justify-content-between
+                    div
+                      ul.list-unstyled
+                        li.d-flex.mb-2
+                          span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                            svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                              path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                          span Записи лекций
+                        li.d-flex.mb-2
+                          span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                            svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                              path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                          span Практические задания
+                        li.d-flex.mb-2
+                          span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                            svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                              path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                          span Поддержка наставника
+                    a.btn.btn-primary.d-block.w-100(role='button' href='#') Подробнее
+          #tab-2.tab-pane(role='tabpanel')
+            .row.gy-4.row-cols-1.row-cols-md-2.row-cols-xl-3
+              .col
+                .card.h-100
+                  .card-body.flex-grow-0.p-4
+                    span.badge.bg-primary.text-uppercase.mb-2 Standard
+                    h4.display-4.fw-bold.card-title
+                      | 15 000 руб
+                      br
+                    h1 Маркетинг
+                  .card-footer.d-flex.flex-column.flex-grow-1.justify-content-between.p-4
+                    div
+                      ul.list-unstyled
+                        li.d-flex.mb-2
+                          span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                            svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                              path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                          span Записи лекций
+                        li.d-flex.mb-2
+                          span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                            svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                              path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                          span Практические задания
+                        li.d-flex.mb-2
+                          span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                            svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                              path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                          span Поддержка наставника
+                    button.btn.btn-primary.d-block.w-100(type='button') Подробнее
+              .col
+                .card.h-100
+                  .card-body.flex-grow-0.p-4
+                    span.badge.bg-primary.text-uppercase.mb-2 Pro
+                    h4.display-4.fw-bold.card-title
+                      | 38 000 руб
+                      br
+                    h1 Java разработка
+                  .card-footer.d-flex.flex-column.flex-grow-1.justify-content-between.p-4
+                    div
+                      div
+                        ul.list-unstyled
+                          li.d-flex.mb-2
+                            span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                              svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                                path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                            span Записи лекций
+                          li.d-flex.mb-2
+                            span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                              svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                                path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                            span Практические задания
+                          li.d-flex.mb-2
+                            span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                              svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                                path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                            span Поддержка наставника
+                    button.btn.btn-primary.d-block.w-100(type='button' href='/java-dev/') Подробнее
+              .col
+                .card.h-100
+                  .card-body.flex-grow-0.p-4
+                    span.badge.bg-primary.text-uppercase.mb-2 standard +
+                    h4.display-4.fw-bold.card-title
+                      | 27 000 руб
+                      br
+                    h1 Аналитика
+                  .card-footer.d-flex.flex-column.flex-grow-1.justify-content-between.p-4
+                    div
+                      ul.list-unstyled
+                        li.d-flex.mb-2
+                          span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                            svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                              path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                          span Записи лекций
+                        li.d-flex.mb-2
+                          span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                            svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                              path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                          span Практические задания
+                        li.d-flex.mb-2
+                          span.bs-icon-xs.bs-icon-rounded.bs-icon-primary-light.bs-icon.me-2
+                            svg.bi.bi-check-lg(xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' viewBox='0 0 16 16')
+                              path(d='M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z')
+                          span Поддержка наставника
+                    div
+                    button.btn.btn-primary.d-block.w-100(type='button') Подробнее
+    script(src='assets/bootstrap/js/bootstrap.min.js')
